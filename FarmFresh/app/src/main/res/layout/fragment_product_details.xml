@@ -8,14 +8,21 @@
     tools:context=".ui.productdetails.ProductDetails">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:onClick="Back"
+        app:srcCompat="@drawable/outline_arrow_back_24" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
         android:padding="16dp">
 
         <LinearLayout
@@ -59,9 +66,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="Add to Cart" />
-            
-            <Button android:id="@+id/btn_buy" android:layout_width="match_parent"
-                android:layout_height="48dp" android:text="Buy Now" android:layout_marginTop="16dp"/>
+
+            <Button
+                android:id="@+id/btn_buy"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:text="Buy Now" />
         </LinearLayout>
 
     </ScrollView>

@@ -20,6 +20,10 @@
         <activity
             android:name=".ui.authentication.Login"
             android:exported="false" />
+
+        <activity
+            android:name=".ui.productdetails.ProductDetails"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />

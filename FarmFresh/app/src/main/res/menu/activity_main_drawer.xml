@@ -20,10 +20,6 @@
             android:icon="@android:drawable/checkbox_on_background"
             android:title="Checkout" />
         <item
-            android:id="@+id/nav_productdetails"
-            android:icon="@android:drawable/presence_away"
-            android:title="Productdetails" />
-        <item
             android:id="@+id/nav_cart"
             android:icon="@drawable/outline_add_shopping_cart_24"
             android:title="cart" />

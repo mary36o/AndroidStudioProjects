@@ -128,10 +128,6 @@ public class Home extends AppCompatActivity   implements NavigationView.OnNaviga
 
 
 
-        }else if (R.id.nav_productdetails == item.getItemId()) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainerView,new ProductDetails()).commit();
-            navigationView.setCheckedItem(R.id.nav_productdetails);
-
         }else if (R.id.nav_checkout == item.getItemId()) {
           getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainerView,new CheckoutFragment()).commit();
            navigationView.setCheckedItem(R.id.nav_checkout);
