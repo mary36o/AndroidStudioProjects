@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+
+
+        <item
+            android:id="@+id/nav_productitem"
+            android:icon="@android:drawable/btn_dialog"
+            android:title="productitem" />
+        <item
+            android:id="@+id/nav_checkout"
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="Checkout" />
+        <item
+            android:id="@+id/nav_productdetails"
+            android:icon="@android:drawable/presence_away"
+            android:title="Productdetails" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/outline_add_shopping_cart_24"
+            android:title="cart" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_white"
+            android:title="Profile" />
+    </group>
+</menu>
